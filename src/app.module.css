@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@500&display=swap');
+
+.container {
+    background-image: url("./img/fest.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.first, .second {
+    height: 70%;
+    width: 25%;  
+    background-color: rgba(0, 0, 0, 0.479);
+    margin: auto;
+    margin-bottom: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-family: 'Farro', sans-serif;
+    font-size: 48px;
+}
+.items {
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.item {
+    height: 20%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.img img {
+    width: 220px;
+}
+.img {
+    width: 50%;
+}
+.play img {
+    width: 35px;
+    height: 35px;
+    margin-top: 6px;
+}
+.play {
+    width: 21%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    cursor: pointer;
+}
+.play p {
+    margin-bottom: 20px;
+}
+
+.bet {
+    height: 1%;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
